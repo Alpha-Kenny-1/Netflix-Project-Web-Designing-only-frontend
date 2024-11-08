@@ -129,6 +129,21 @@ body {
     flex-wrap: wrap;
 }
 
+.movie-section1 {
+    padding: 20px;
+}
+
+.movie-section1 h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.movie-grid1 {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
 .movie-card img {
     width: 150px;
     height: 225px;
@@ -138,4 +153,38 @@ body {
 
 .movie-card img:hover {
     transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px); 
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.navbar,
+.nav-links,
+.movie-section,
+.movie-grid {
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+.navbar {
+    animation-delay: 0.1s;
+}
+
+.nav-links {
+    animation-delay: 0.2s;
+}
+
+.movie-section {
+    animation-delay: 0.3s;
+}
+
+.movie-grid {
+    animation-delay: 0.5s;
 }
