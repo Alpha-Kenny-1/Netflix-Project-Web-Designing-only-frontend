@@ -44,7 +44,7 @@
 
 /* Featured Section */
 .featured {
-    background: url('featured-background.jpg') no-repeat center center/cover;
+    background: url('images/tudum\(big\ photo\).jpg') no-repeat center center/cover;
     color: white;
     padding: 100px 40px;
     text-align: center;
@@ -132,7 +132,12 @@
     padding: 0 15px 20px;
 }
 
-/* Insights Section */
+.latest-news .news-container a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/*Footer section*/
 .insights {
     padding: 40px;
     background-color: #222;
@@ -173,4 +178,13 @@
 
 .insight-card p {
     font-size: 16px;
+}
+
+.insights .insights-container a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.insights .insights-container a:hover {
+    color: grey; 
 }
